@@ -1,0 +1,248 @@
+:root {
+  --brand-color: #212121;
+  --background-color: #ffffff;
+  --background-color2: #2f303a;
+
+  --background-color3: #f5f4fa;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  color: #212121;
+}
+.web {
+  color: #2196f3;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 100%;
+}
+.webstudio {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 100%;
+  color: #000000;
+}
+.webstudio2 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 100%;
+  color: #ffffff;
+}
+.link {
+  text-decoration: none;
+}
+.main-section {
+  background-color: var(--background-color);
+
+  /* position: absolute;
+    width: 1600px;
+    height: 80px;
+    left: 0px;
+    top: 0px; */
+}
+
+.order-section {
+  background-color: var(--background-color2);
+
+  /* position: absolute;   
+    width: 1600px;
+    height: 600px;
+    left: 0px;
+    top: 80px; */
+}
+.lorem-ipsum-section {
+  background-color: var(--background-color);
+}
+.what-we-do-section {
+  background-color: var(--background-color);
+}
+.team-section {
+  background-color: var(--background-color3);
+}
+.contact-section {
+  background-color: var(--background-color2);
+}
+
+.movement-links a {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+.movement-links li {
+  list-style-type: none;
+}
+.movement-links a:hover {
+  color: #2196f3;
+}
+.contacts a {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+
+.contacts address {
+  font-size: 14px;
+  line-height: 146%;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
+  color: #ffffff;
+}
+.contacts li {
+  list-style-type: none;
+}
+.contacts a:hover {
+  color: #2196f3;
+}
+.order-section h1 {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 116%;
+  /* or 136% */
+
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.order-section button {
+  width: 200px;
+  height: 50px;
+
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 160%;
+  /* identical to box height, or 188% */
+
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+}
+.order-section button:hover {
+  background-color: #757575;
+  color: #000000;
+}
+
+.lorem-ipsum h4 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.lorem-ipsum p {
+  font-size: 14px;
+  line-height: 146%;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+.lorem-ipsum li {
+  list-style-type: none;
+}
+.what-we-do {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 100%;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.pictures-what-we-do li {
+  list-style-type: none;
+}
+.team {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 100%;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.team-description h4 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.team-description p {
+  font-size: 16px;
+  line-height: 100%;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+.team-description li {
+  list-style-type: none;
+}
+.portfolio-buttons button {
+  /* height: 38px;
+    left: 639px;
+    top: 174px; */
+
+  /* filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)); */
+  cursor: pointer;
+  border-radius: 4px;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 139%;
+  /* identical to box height, or 162% */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+  font-family: "Roboto", sans-serif;
+  background-color: #f5f4fa;
+  color: #212121;
+}
+.portfolio-buttons li {
+  list-style-type: none;
+}
+.portfolio-buttons button:hover {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+.project-list li {
+  list-style-type: none;
+}
+.project-list h4 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 171%;
+  /* identical to box height, or 200% */
+
+  letter-spacing: 0.06em;
+}
+.project-list p {
+  font-size: 16px;
+  line-height: 160%;
+  /* identical to box height, or 188% */
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
