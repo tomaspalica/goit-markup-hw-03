@@ -9,6 +9,15 @@ body {
   font-family: "Roboto", sans-serif;
   color: #212121;
 }
+.container {
+  /* box-sizing: border-box;
+  display: flex; */
+  max-width: 1200px;
+  width: 100%;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0 0px;
+}
 .web {
   color: #2196f3;
   font-family: "Raleway";
@@ -53,11 +62,13 @@ body {
   background-color: var(--background-color2);
   display: flex;
   flex-direction: column;
+  width: 100%;
 
   align-items: center;
 }
 .lorem-ipsum-section {
   background-color: var(--background-color);
+  width: 100%;
 }
 .what-we-do-section {
   background-color: var(--background-color);
@@ -212,8 +223,7 @@ body {
 }
 .team-description {
   display: flex;
-
-  padding-left: 0px;
+  justify-content: space-around;
 }
 .team-description h4 {
   font-weight: 500;
@@ -285,17 +295,6 @@ body {
   color: #757575;
 }
 
-.container {
-  box-sizing: border-box;
-  display: flex;
-  max-width: 1200px;
-  width: 100%;
-  align-items: center;
-  margin: 0 auto;
-  padding: 0 0px;
-  flex-direction: column;
-}
-
 .logo {
   display: flex;
 }
@@ -309,4 +308,7 @@ body {
 .button-spacing {
   padding: 30px 500px 200px 500px;
   margin: 0 auto;
+}
+figure {
+  margin: 0px 0px;
 }
