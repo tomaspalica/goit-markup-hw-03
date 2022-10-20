@@ -221,7 +221,7 @@ body {
 .pictures-what-we-do {
   display: flex;
   flex-direction: row;
-  width: 1170;
+  width: 1170px;
   justify-content: space-between;
   padding-left: 0px;
 }
