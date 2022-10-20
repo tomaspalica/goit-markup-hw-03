@@ -151,6 +151,8 @@ body {
   color: #ffffff;
   padding: 200px 252px 30px 252px;
   box-sizing: content-box;
+  margin-left: auto;
+  margin-right: auto;
 }
 .order-section button {
   width: 200px;
@@ -326,6 +328,10 @@ body {
   font-size: 18px;
   line-height: 171%;
   /* identical to box height, or 200% */
+  padding-right: 24px;
+  padding-left: 24px;
+  padding-top: 20px;
+  padding-bottom: 4px;
 
   letter-spacing: 0.06em;
 }
@@ -337,6 +343,9 @@ body {
   letter-spacing: 0.03em;
 
   color: #757575;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 20px;
 }
 
 .logo {
@@ -353,7 +362,8 @@ body {
 }
 .button-spacing {
   padding: 30px 500px 200px 500px;
-  margin: 0 0;
+  margin-left: auto;
+  margin-right: auto;
 }
 figure {
   margin: 0px 0px;
@@ -403,8 +413,5 @@ figure {
 }
 .project-box {
   background: #ffffff;
-  border: 0.5px solid #eeeeee;
-}
-.border-project {
-  /* border: 1px solid #eeeeee; */
+  border-bottom: 1px solid #eeeeee;
 }
