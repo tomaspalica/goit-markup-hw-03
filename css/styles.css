@@ -424,3 +424,6 @@ figure {
   display: flex;
   align-items: center;
 }
+.contacts-bellow-padding {
+  padding-top: 9px;
+}
